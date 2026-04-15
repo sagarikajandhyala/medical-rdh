@@ -1,0 +1,274 @@
+{
+  "dataset": "NIH_ChestXray14",
+  "n_images": 20,
+  "capacity_distortion": [
+    {
+      "bytes": 5,
+      "psnr": 52.9374,
+      "ssim": 0.999964,
+      "bpp": 0.001099,
+      "reversible": true
+    },
+    {
+      "bytes": 10,
+      "psnr": 52.9374,
+      "ssim": 0.999964,
+      "bpp": 0.001709,
+      "reversible": true
+    },
+    {
+      "bytes": 25,
+      "psnr": 52.9372,
+      "ssim": 0.999964,
+      "bpp": 0.00354,
+      "reversible": true
+    },
+    {
+      "bytes": 50,
+      "psnr": 52.9372,
+      "ssim": 0.999964,
+      "bpp": 0.006592,
+      "reversible": true
+    },
+    {
+      "bytes": 100,
+      "psnr": 52.9372,
+      "ssim": 0.999964,
+      "bpp": 0.012695,
+      "reversible": true
+    },
+    {
+      "bytes": 200,
+      "psnr": 52.9372,
+      "ssim": 0.999964,
+      "bpp": 0.024902,
+      "reversible": true
+    },
+    {
+      "bytes": 300,
+      "psnr": 52.937,
+      "ssim": 0.999964,
+      "bpp": 0.037109,
+      "reversible": true
+    }
+  ],
+  "method_comparison": {
+    "LSB": {
+      "psnr": 74.31,
+      "ssim": 1.0,
+      "reversible": false,
+      "payload_ok": true,
+      "bpp": 0.00427
+    },
+    "DifferenceExpansion": {
+      "psnr": 56.48,
+      "ssim": 1.0,
+      "reversible": true,
+      "payload_ok": true,
+      "bpp": 0.00476
+    },
+    "HistShift_Ours": {
+      "psnr": 52.02,
+      "ssim": 1.0,
+      "reversible": false,
+      "payload_ok": true,
+      "bpp": 0.00476
+    }
+  },
+  "per_image_eval": [
+    {
+      "image": "00000001_000.png",
+      "psnr": 52.9288,
+      "ssim": 0.999964,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000001_001.png",
+      "psnr": 52.7348,
+      "ssim": 0.99996,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000001_002.png",
+      "psnr": 52.7564,
+      "ssim": 0.999964,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000002_000.png",
+      "psnr": 52.3126,
+      "ssim": 0.999918,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_000.png",
+      "psnr": 53.0216,
+      "ssim": 0.99997,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_001.png",
+      "psnr": 52.4682,
+      "ssim": 0.999959,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_002.png",
+      "psnr": 52.873,
+      "ssim": 0.999974,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_003.png",
+      "psnr": 52.8991,
+      "ssim": 0.999965,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_004.png",
+      "psnr": 52.5156,
+      "ssim": 0.999954,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_005.png",
+      "psnr": 53.0964,
+      "ssim": 0.999968,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_006.png",
+      "psnr": 53.3446,
+      "ssim": 0.999974,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000003_007.png",
+      "psnr": 52.8603,
+      "ssim": 0.999967,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000004_000.png",
+      "psnr": 52.5064,
+      "ssim": 0.999932,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000005_000.png",
+      "psnr": 52.2949,
+      "ssim": 0.999951,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000005_001.png",
+      "psnr": 52.6747,
+      "ssim": 0.999924,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00000005_002.png",
+      "psnr": 52.5864,
+      "ssim": 0.999912,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00001165_000.png",
+      "psnr": 52.6166,
+      "ssim": 0.999951,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00001165_001.png",
+      "psnr": 53.0773,
+      "ssim": 0.99997,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00001166_000.png",
+      "psnr": 52.867,
+      "ssim": 0.999881,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    },
+    {
+      "image": "00001166_001.png",
+      "psnr": 52.9854,
+      "ssim": 0.999976,
+      "reversible": true,
+      "payload_ok": true,
+      "bits_embedded": 136
+    }
+  ],
+  "unet_quality": [
+    {
+      "image": "00000001_000.png",
+      "dice": 0.1927,
+      "iou": 0.1066
+    },
+    {
+      "image": "00000001_001.png",
+      "dice": 0.3879,
+      "iou": 0.2406
+    },
+    {
+      "image": "00000001_002.png",
+      "dice": 0.0876,
+      "iou": 0.0458
+    },
+    {
+      "image": "00000002_000.png",
+      "dice": 0.0,
+      "iou": 0.0
+    },
+    {
+      "image": "00000003_000.png",
+      "dice": 0.1042,
+      "iou": 0.055
+    }
+  ],
+  "robustness": {
+    "no_attack": true,
+    "gaussian_s1": false,
+    "gaussian_s3": false,
+    "jpeg_q95": false,
+    "jpeg_q80": false
+  }
+}
