@@ -120,7 +120,7 @@ def exp4_unet_quality(paths, n_eval=5):
     from evaluation.metrics import dice_score, iou_score
 
     try:
-        model = load_unet("models/unet_weights.pth", base_features=24)
+        model = load_unet("models/unet_weights.pth", base_features=16)
     except FileNotFoundError as e:
         print(f"  {e}"); return []
 
