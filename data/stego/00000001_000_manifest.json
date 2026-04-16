@@ -1,0 +1,47 @@
+{
+  "pipeline_version": "2.0",
+  "dataset": "NIH_ChestX-ray14",
+  "image_base": "00000001_000",
+  "modality": "xray",
+  "consent_level": "anonymized",
+  "encryption": {
+    "algorithm": "AES-256-GCM",
+    "key_b64": "ERurxHZVNvgs/4cFBka6XBbFQDFJK21HsKsiXkKjrgs=",
+    "nonce_b64": "RpI8/6OaniQk14oMSVzRqg==",
+    "tag_b64": "oQ90PYN7DD6IoT1Qw+HqwA==",
+    "plaintext_len": 57
+  },
+  "embedding": {
+    "payload_bits": 712,
+    "header_bits": 32,
+    "embedded": 744,
+    "threshold_T": 1,
+    "capacity_ok": true,
+    "original_checksum": "c64c1b23cebaaa53d776ce26469c7e9430c5b4f100639d72510ccaa33e1a656d",
+    "stego_checksum": "750f80ff1aa9cb76cadc1733dc758b40c7319e1ce3d274c1a480ed3f4e0d1fef",
+    "timestamp": "2026-04-16 22:36:16"
+  },
+  "audit": {
+    "timestamp": "2026-04-16 22:36:16",
+    "rationale": "Modality 'xray': threshold=0.45. Consent 'anonymized' permits ['anonymized_id', 'timestamp']. ROI pixels skipped.",
+    "compliance": [
+      "HIPAA",
+      "GDPR"
+    ],
+    "threshold": 0.45,
+    "allowed": [
+      "anonymized_id",
+      "timestamp"
+    ],
+    "bits_embedded": 744,
+    "checksum": "c64c1b23cebaaa53d776ce26469c7e9430c5b4f100639d72510ccaa33e1a656d",
+    "llm_assisted": false
+  },
+  "paths": {
+    "original": "data/raw\\00000001_000.png",
+    "processed": "data/processed/00000001_000_proc.png",
+    "stego": "data/stego/00000001_000_stego.png",
+    "restored": "data/stego/00000001_000_restored.png",
+    "mask": "data/stego/00000001_000_tight_safe.npy"
+  }
+}

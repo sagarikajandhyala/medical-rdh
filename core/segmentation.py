@@ -10,7 +10,7 @@ import torch
 from models.unet import load_unet, predict_roi, predict_probability
 
 UNET_WEIGHTS  = "models/unet_weights.pth"
-BASE_FEATURES = 24
+BASE_FEATURES = 16
 
 
 def segment(arr: np.ndarray, device: str = "cpu") -> tuple:
